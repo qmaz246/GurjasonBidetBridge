@@ -29,25 +29,23 @@ WaitTime = 0.0015
 # Define simple sequence
 StepCount1 = 4
 Seq1 = []
-Seq1 = range(0, StepCount1)
-Seq1[0] = [1,0,0,0]
-Seq1[1] = [0,1,0,0]
-Seq1[2] = [0,0,1,0]
-Seq1[3] = [0,0,0,1]
+Seq1.append([1,0,0,0])
+Seq1.append([0,1,0,0])
+Seq1.append([0,0,1,0])
+Seq1.append([0,0,0,1])
  
 # Define advanced sequence
 # as shown in manufacturers datasheet
 StepCount2 = 8
 Seq2 = []
-Seq2 = range(0, StepCount2)
-Seq2[0] = [1,0,0,0]
-Seq2[1] = [1,1,0,0]
-Seq2[2] = [0,1,0,0]
-Seq2[3] = [0,1,1,0]
-Seq2[4] = [0,0,1,0]
-Seq2[5] = [0,0,1,1]
-Seq2[6] = [0,0,0,1]
-Seq2[7] = [1,0,0,1]
+Seq2.append([1,0,0,0])
+Seq2.append([1,1,0,0])
+Seq2.append([0,1,0,0])
+Seq2.append([0,1,1,0])
+Seq2.append([0,0,1,0])
+Seq2.append([0,0,1,1])
+Seq2.append([0,0,0,1])
+Seq2.append([1,0,0,1])
 
 #Full torque
 StepCount3 = 4
